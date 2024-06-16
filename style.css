@@ -12,10 +12,12 @@ html {
   height: 100%;
   width: 100%;
   background-color: rgb(250, 247, 255);
+  overflow-x: hidden;
 }
 body {
   overflow-x: hidden;
 }
+
 .section1 {
   min-height: 100vh;
   width: 100%;
@@ -246,4 +248,158 @@ span {
 .section3 {
   height: 100vh;
   width: 100%;
+}
+@media only screen and (max-width: 700px){
+ 
+
+  .section1 {
+    min-height: 60vh;
+    width: 100%;
+    background-color: rgb(250, 247, 255);
+    overflow: hidden;
+  }
+ 
+.btn a,.section1-media-content,.section1-media-content img{
+  display: none;
+ }
+ .section1-content-box{
+  height: 60vh;
+ }
+ .section1-text-content {
+  width: 100%;
+  height: 100%;
+}
+.section1-text-content h1 {
+  font-size: 6vh;
+  padding: 2vh 0vh;
+}
+.section1-text-content p {
+  padding: 1.5vh 0vh;
+  padding-right: 3vh;
+  font-size: 2.1vh;
+}
+.section1-text-content button {
+  padding: 1.5vh 4vh;
+  border-radius: 1vw;
+  font-size: 2.1vh;
+  margin-top: 3vh;
+}
+.btn1{
+  font-size: 3vh;
+  margin-left: 1vh;
+}
+.btn{
+  position: relative;
+}
+.btn button{
+  font-size: 2.1vh;
+  position: absolute;
+  right: 10%;
+}
+nav{
+  margin-top: 1vh;
+}
+.section1logos {
+  bottom: 3%;
+  padding: 2vw;
+
+}
+.logo {
+  height: 8vw;
+  padding: 1vw;
+  margin-left: 2vw;
+}
+.section2 {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.section2top {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+  margin: 3vh 0vh;
+}
+.section2topcontent {
+  width: 88%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+}
+.section2top button {
+  font-size: 2vh;
+  font-weight: 600;
+  padding: 0.5vh 4vh;
+  border-radius: 1.5vh;
+  background-color: #9ae975;
+  border: 0px solid black;
+  height: 30vh;
+  margin: 1vh;
+  
+  }
+.section2top p {
+  font-size: 2vh;
+}
+.section2bottom {
+  height: 100vh;
+  width: 88%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.section2bottombox {
+  height: 80%;
+  width: 100%;
+  margin: 2vh 0vh;
+
+}
+.section2bottomboxcontent {
+  width: 85%;
+  height: 85%;
+  flex-direction: column-reverse;
+}
+.section2bottomboxleft,
+.section2bottomboxright {
+  width: 100%;
+  height: 49%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 1vw;
+}
+.section2bottomboxleft h1 {
+  padding: 3px;
+  background: #9ae975;
+  border-radius: 1vh;
+}
+.section2bottomboxlefticon {
+  height: 3vw;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  bottom: 0;
+}
+.section2bottomboxlefticon i {
+  font-size: 2vw;
+  background-color: #000000;
+  padding: 4px;
+  border-radius: 50%;
+  color: #fff;
+}
+.section2bottomboxlefticon a {
+  font-size: 2.7vh;
+  margin-left: 2vh;
+  font-weight: 600;
+}
+.section2bottomboxright img {
+  height: 100%;
+  width: 100%;
+}
+
 }
