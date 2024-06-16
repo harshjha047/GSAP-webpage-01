@@ -1,0 +1,249 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #000000;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(250, 247, 255);
+}
+body {
+  overflow-x: hidden;
+}
+.section1 {
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgb(250, 247, 255);
+}
+nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2vw;
+}
+.btn {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.btn1 {
+  font-size: 2vw;
+  font-weight: 600;
+  width: 15%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.btn4,
+.btn2,
+.btn3,
+.btn5,
+.btn6,
+.btn button {
+  font-size: 1.25vw;
+  font-weight: 500;
+}
+.btn button {
+  padding: 1vh 2vh;
+  border-radius: 1vh;
+  border: 1px solid rgb(8, 6, 12);
+  background-color: rgba(243, 237, 255, 0);
+}
+.section1-content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.section1-content-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85vh;
+  width: 87vw;
+}
+.section1-text-content {
+  width: 40%;
+  height: 100%;
+}
+.section1-text-content h1 {
+  font-size: 5vw;
+  font-weight: 600;
+  line-height: 1;
+  padding: 2vw 0vw;
+}
+.section1-text-content p {
+  padding: 2.5vw 0vw;
+  padding-right: 3vw;
+  font-size: 1.1vw;
+}
+.section1-text-content button {
+  padding: 1.5vw 4vw;
+  border-radius: 1vh;
+  border: 1px solid #08060c;
+  background-color: #08060c;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.1vw;
+}
+.section1-media-content {
+  width: 52%;
+  height: 100%;
+}
+.section1-media-content img {
+  height: 100%;
+  width: 100%;
+}
+
+.section2 {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.section2top {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+}
+.section2topcontent {
+  width: 88%;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+}
+.section2top button {
+  font-size: 2vw;
+  font-weight: 600;
+  padding: 0.5vh 4vh;
+  border-radius: 1.5vh;
+  background-color: #9ae975;
+  border: 0px solid black;
+}
+.section2top p {
+  font-weight: 400;
+  font-size: 1vw;
+  width: 60%;
+  margin-left: 1vw;
+}
+.section2bottom {
+  height: 100vh;
+  width: 88%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.section2bottombox {
+  height: 45%;
+  width: 45%;
+  border: 1px solid black;
+  border-radius: 3vw;
+  border-bottom: 1.3vh solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1vw;
+}
+.section2bottomboxcontent {
+  width: 85%;
+  height: 85%;
+  display: flex;
+}
+.section2bottomboxleft,
+.section2bottomboxright {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.section2bottomboxleft h1 {
+  padding: 3px;
+  background: #9ae975;
+  border-radius: 1vh;
+}
+.section2bottomboxlefticon {
+  height: 3vw;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  bottom: 0;
+}
+.section2bottomboxlefticon i {
+  font-size: 2vw;
+  background-color: #000000;
+  padding: 4px;
+  border-radius: 50%;
+  color: #fff;
+}
+.section2bottomboxlefticon a {
+  font-size: 2.7vh;
+  margin-left: 2vh;
+  font-weight: 600;
+}
+.section2bottomboxright img {
+  height: 100%;
+  width: 100%;
+}
+span {
+  display: inline-block;
+}
+.section1logosBar {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.section1logos {
+  bottom: 3%;
+  width: 88%;
+  padding: 2vh;
+  overflow: hidden;
+  z-index: 0;
+  white-space: nowrap;
+}
+.logos {
+  display: inline-block;
+  animation-name: move;
+  animation-duration: 9s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  color: #fff;
+}
+.logo {
+  height: 10vh;
+  padding: 1vw;
+  margin-left: 2vw;
+}
+#Zoom {
+  padding: 1.5vw;
+}
+#LinkedIn {
+  padding: 1.3vw;
+}
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.section3 {
+  height: 100vh;
+  width: 100%;
+}
